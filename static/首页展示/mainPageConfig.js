@@ -1,31 +1,22 @@
-## 首页展示配置说明
-
-本文件夹用于配置首页，可配置四部分内容：
-
-第一部分：实验室名称-libName
-
-第二部分：导航栏内容-navContent
-
-第三部分：轮播图-slider
-```
-第①步：将图片保存到slider目录：`./slider/`下并做好命名
-第②步：将图片地址及名称信息保存到 `mainPageConfig.js` 文件中的slider条目下
-```
-第四部分：footer信息-footerContent
-
-格式如下：
-
-```js
 const mainPageInfo = {
     'libName':'SDN未来网络实验室',
+
     'navContent':[
         '首页',
         '学术论文',
-        '学术动态',        
+        '学术动态',
+        '科研项目',
+        'SDN之路',
+        '学术团队',
+        '招生简介',
+        '生活娱乐',
+
     ],
+
     'slider':[
         './slider/0.jpg',
         './slider/1.png',
+        './slider/2.png',
     ],
     
     'footerContent':[
@@ -33,5 +24,7 @@ const mainPageInfo = {
         <p>Copyright@福州大学 SDN未来网络实验室 All Rights Reserved</p></div>',
     ],
 }
-```
-> 本页面仅`footerContent`条目*支持* 以HTML方式编辑，其他条目均 *不支持*
+
+export default { 
+    mainPageInfo
+};
