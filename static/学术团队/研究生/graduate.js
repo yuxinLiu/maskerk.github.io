@@ -17,7 +17,6 @@ const graduateInfo = [
     ['陈俞锦','SDN/AI','2018级','','124672851@qq.com'],
     ['李陈辉','SDN','2018级','','ilinf@foxmail.com'],
     ['潘锡意','SDN/P4','2018级','','https://www.cnblogs.com/Pan-xi-yi/'],
-    ['张瑞','SDN','2018级','/2017级/张瑞.jpg','15563952639@163.com'],
 
 ]
 
