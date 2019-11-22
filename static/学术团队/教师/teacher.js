@@ -3,7 +3,6 @@ const teacherInfo = [
         ['林为为','','','林为为.jpg'],
         ['朱丹红','','','朱丹红.jpg',''],
 
-
 ]
 
 export default { 
