@@ -22,7 +22,7 @@ const graduateInfo = [
     ['刘宇欣','数据中心，拥塞控制','2015级','./2015级/刘宇欣.jpg','https://yuxinliu.github.io'],
     ['彭建云','歌声合成，IoT技术研究','2015级','./2015级/彭建云.jpg','https://sstriver.github.io/sdnlab/'],
     ['张为凡','软件定义网络','2015级','./2015级/张为凡.png','https://keepthebeats.github.io/'],
- 
+
 
 ]
 

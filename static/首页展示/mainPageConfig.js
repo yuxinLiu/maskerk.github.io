@@ -19,9 +19,10 @@ const mainPageInfo = {
         './slider/2.png',
     ],
     
-    'footerContent':
-        '<div style="font-size:15px;height:60px;width:100%;display:block;background-color:#545c64;line-height:30px;color:white;"><p>地址：350116，福建省，福州市，学园路，福州大学数学与计算机科学学院2号楼504-2室</p><p>Copyright@福州大学 SDN未来网络实验室 All Rights Reserved</p></div>',
-    
+    'footerContent':[
+        '地址：350116，福建省，福州市，学园路，福州大学数学与计算机科学学院2号楼504-2室',
+        'Copyright@福州大学 SDN未来网络实验室 All Rights Reserved.'
+    ],
 }
 
 export default { 

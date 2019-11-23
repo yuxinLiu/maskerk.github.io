@@ -12,6 +12,9 @@
 第②步：将图片地址及名称信息保存到 `mainPageConfig.js` 文件中的slider条目下
 ```
 第四部分：footer信息-footerContent
+```
+`footerContent`分为两条信息。在电脑端两条信息都可以显示，在移动端只显示第二条。
+```
 
 格式如下：
 
@@ -29,9 +32,9 @@ const mainPageInfo = {
     ],
     
     'footerContent':[
-        '<div style="font-size:15px;height:50px;width:100%;position:fixed;bottom:0px;display:block;background-color:#545c64;line-height:25px;color:white;"><p><strong></strong>地址：350116，福建省，福州市，学园路，福州大学数学与计算机科学学院2号楼504-2室</p>\
-        <p>Copyright@福州大学 SDN未来网络实验室 All Rights Reserved</p></div>',
+        '地址：350116，福建省，福州市，学园路，福州大学数学与计算机科学学院2号楼504-2室.',
+        'Copyright@福州大学 SDN未来网络实验室 All Rights Reserved.'
     ],
 }
 ```
-> 本页面仅`footerContent`条目*支持* 以HTML方式编辑，其他条目均 *不支持*
+> 本页面 *不支持* 以HTML方式编辑
